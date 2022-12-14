@@ -25,6 +25,7 @@ public class GameObjectPool : MonoBehaviour
     void OnReturnedToPool(GameObject gameObject)
     {
         gameObject.transform.SetParent(transform); //could be a bit slow, not sure. it's not important for the pool functionality, so safe to remove
+        gameObject.transform.position = Vector3.zero; //to prevent instantaneous but noticeable warping of some pooled objects from their previous positions
         gameObject.SetActive(false);
     }
 
