@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600878ab1ce52de42bbd543486c2a615, type: 3}
+  m_Name: ProjectileSpeed
+  m_EditorClassIdentifier: 
+  statName: projectile_speed
+  statVisualName: Projectile Speed
+  statDescription: Increases speed of your projectiles
+  statIcon: {fileID: -1576826295, guid: 0fda5f77fafe6544792cd4aa7a11dc91, type: 3}
+  startingValue: 10
+  gainPerLevel: 5
+  baseCost: 10
+  addCostGain: 10
+  mulCostGain: 1.33
